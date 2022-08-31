@@ -1,25 +1,23 @@
-import React from 'react';
-import logo from './logo.svg';
-import './App.css';
+import { NavigateFunction, Route, Routes, useNavigate } from "react-router-dom";
+import "./App.css";
+import CreateTaskPage from "./pages/create-task";
+import SignInPage from "./pages/signin";
+import SignUpPage from "./pages/signup";
+import TasksPage from "./pages/tasks";
 
 function App() {
+  const navigate: NavigateFunction = useNavigate();
   return (
-    <div className="App">
-      <header className="App-header">
-        <img src={logo} className="App-logo" alt="logo" />
-        <p>
-          Edit <code>src/App.tsx</code> and save to reload.
-        </p>
-        <a
-          className="App-link"
-          href="https://reactjs.org"
-          target="_blank"
-          rel="noopener noreferrer"
-        >
-          Learn React
-        </a>
-      </header>
-    </div>
+    <Routes>
+      <Route path="/" element={<SignInPage navigate={navigate} />} />
+      <Route path="/signin" element={<SignInPage navigate={navigate} />} />
+      <Route path="/signup" element={<SignUpPage navigate={navigate} />} />
+      <Route path="/tasks" element={<TasksPage navigate={navigate} />} />
+      <Route
+        path="/tasks/create"
+        element={<CreateTaskPage navigate={navigate} />}
+      />
+    </Routes>
   );
 }
 
