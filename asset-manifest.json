@@ -1,15 +1,15 @@
 {
   "files": {
-    "main.css": "https://phantuantu24/task-management/static/css/main.ad2d4ed5.css",
-    "main.js": "https://phantuantu24/task-management/static/js/main.59bca463.js",
-    "static/js/787.9ef28e81.chunk.js": "https://phantuantu24/task-management/static/js/787.9ef28e81.chunk.js",
-    "index.html": "https://phantuantu24/task-management/index.html",
-    "main.ad2d4ed5.css.map": "https://phantuantu24/task-management/static/css/main.ad2d4ed5.css.map",
-    "main.59bca463.js.map": "https://phantuantu24/task-management/static/js/main.59bca463.js.map",
-    "787.9ef28e81.chunk.js.map": "https://phantuantu24/task-management/static/js/787.9ef28e81.chunk.js.map"
+    "main.css": "https://phantuantu24.github.io/task-management/static/css/main.ad2d4ed5.css",
+    "main.js": "https://phantuantu24.github.io/task-management/static/js/main.cbfd5bd0.js",
+    "static/js/787.9ef28e81.chunk.js": "https://phantuantu24.github.io/task-management/static/js/787.9ef28e81.chunk.js",
+    "index.html": "https://phantuantu24.github.io/task-management/index.html",
+    "main.ad2d4ed5.css.map": "https://phantuantu24.github.io/task-management/static/css/main.ad2d4ed5.css.map",
+    "main.cbfd5bd0.js.map": "https://phantuantu24.github.io/task-management/static/js/main.cbfd5bd0.js.map",
+    "787.9ef28e81.chunk.js.map": "https://phantuantu24.github.io/task-management/static/js/787.9ef28e81.chunk.js.map"
   },
   "entrypoints": [
     "static/css/main.ad2d4ed5.css",
-    "static/js/main.59bca463.js"
+    "static/js/main.cbfd5bd0.js"
   ]
 }
